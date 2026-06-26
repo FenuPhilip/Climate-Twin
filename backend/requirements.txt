@@ -1,0 +1,55 @@
+# Core Framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+python-multipart==0.0.9
+
+# Database
+sqlalchemy==2.0.31
+asyncpg==0.29.0
+alembic==1.13.2
+geoalchemy2==0.15.2
+psycopg2-binary==2.9.9
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# HTTP / Async
+httpx==0.27.0
+aiohttp==3.9.5
+
+# Cache
+redis==5.0.7
+aioredis==2.0.1
+
+# Scheduling
+apscheduler==3.10.4
+
+# Data Processing
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+
+# AI / ML
+scikit-learn==1.5.0
+joblib==1.4.2
+torch==2.3.1       # CPU version; use torch+cu121 for GPU
+xgboost==2.0.3
+
+# Geospatial
+shapely==2.0.4
+
+# NetCDF / HDF5 (for real data sources)
+# xarray==2024.6.0
+# h5py==3.11.0
+# netcdf4==1.7.1
+
+# Logging
+structlog==24.2.0
+
+# Testing
+pytest==8.2.2
+pytest-asyncio==0.23.7
+httpx==0.27.0
