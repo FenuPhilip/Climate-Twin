@@ -238,6 +238,4 @@ This is a **Proof of Concept** for ISRO's Bharatiya Antariksh Hackathon 2024.
 
 ---
 
-## 📝 License
 
-MIT License — Built for ISRO Bharatiya Antariksh Hackathon 2024
